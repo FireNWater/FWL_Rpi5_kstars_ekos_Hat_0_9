@@ -1,0 +1,95 @@
+(footprint "Anderson Power Pole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "C5"
+		(at 0.25 -6.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "63367104-854d-46db-82eb-fcf8c661c173")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0.25 6.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b02b709b-ab6b-4d1e-b960-529fff559694")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Anderson Power Pole"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c6e7ff0-5d1b-46ba-b872-d63ec1e23b8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1db5f65-7d27-44ce-bc28-43b0fd64d67b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b135f3a-961f-4a94-8408-6249dc349fad")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0.25 8.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6300b033-c817-44f5-80fe-88f4d89c5211")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -3.75)
+		(size 13 4.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "7692b212-f4b3-4d7a-8a9c-a17e152c0190")
+	)
+	(pad "2" smd roundrect
+		(at 0 3.75)
+		(size 13 4.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "d055c7bd-a875-49e6-b0ba-48d161e68d9f")
+	)
+)

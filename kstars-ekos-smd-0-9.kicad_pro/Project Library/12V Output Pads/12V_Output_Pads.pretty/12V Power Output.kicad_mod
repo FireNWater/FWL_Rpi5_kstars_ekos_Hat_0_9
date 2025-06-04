@@ -1,0 +1,98 @@
+(footprint "12V Power Output"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.05 -5.94 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6c85a177-2eb2-45d1-99be-02915923b62c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "12V Power Output"
+		(at 0 3.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a8d64e89-deec-4e34-a348-02e977e15be7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "12V Power Output"
+		(at -0.05 -3.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b00e5d5-cfae-4a44-bbc9-b5c50e5d3a71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c8845b7-e1e2-4fb7-92a6-66d73b01c6d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48734a18-8ae7-4587-bbca-ef33cd6636b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.79 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a9a80358-d854-42c1-bb91-fc6563182897")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -1.2)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4851dd61-2fc8-4c77-8086-804cd6274525")
+	)
+	(pad "2" thru_hole circle
+		(at 0 1.15)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1816f17-d57f-40ae-8141-84079c3e5a35")
+	)
+)

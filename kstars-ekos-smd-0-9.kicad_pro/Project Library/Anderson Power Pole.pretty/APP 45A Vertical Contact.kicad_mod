@@ -1,0 +1,87 @@
+(footprint "APP 45A Vertical Contact"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 8.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f9249fec-757c-45f4-8e58-d80417177d07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "APP 45A Vertical"
+		(at 0 -8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8dd8c42f-1555-410f-a2bc-c2387eff544e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77351238-270c-4be5-a044-52c26fa3c237")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1a9d8e3-b0fc-4f3f-9e1d-683a71950db0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.5 -7.5)
+		(end 2.5 7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "13bb5ddb-2175-4072-b4ea-5849df08acaf")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -3.95)
+		(size 4 6)
+		(drill oval 1.1 4.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "a7ac77fe-20bb-4203-944a-f9c44615a641")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 3.95)
+		(size 4 6)
+		(drill oval 1.1 4.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "ecb31475-ce4a-4555-bf77-eaefb1c9bae0")
+	)
+	(embedded_fonts no)
+)
