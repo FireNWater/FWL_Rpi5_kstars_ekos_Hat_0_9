@@ -17,4 +17,5 @@
   (lib (name "4")(type "KiCad")(uri "${KIPRJMOD}/Project Library/4.pretty")(options "")(descr ""))
   (lib (name "THMC0503SP-4R7MG-D")(type "KiCad")(uri "${KIPRJMOD}/Project Library/4_7uH Inductor/THMC0503SP-4R7MG-D.pretty")(options "")(descr ""))
   (lib (name "Raspberry_Pi_5_40_Pin_Header")(type "KiCad")(uri "${KIPRJMOD}/Project Library/Raspberry Pi 5/Raspberry_Pi_5_40_Pin_Header.pretty")(options "")(descr ""))
+  (lib (name "Mounting_Holes")(type "KiCad")(uri "${KIPRJMOD}/Project Library/Mounting Holes/Mounting_Holes.pretty")(options "")(descr ""))
 )
