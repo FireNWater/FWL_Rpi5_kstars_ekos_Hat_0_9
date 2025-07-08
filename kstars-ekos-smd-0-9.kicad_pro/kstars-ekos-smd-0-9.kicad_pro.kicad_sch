@@ -8,7 +8,7 @@
 		(title "Astro Raspberry Pi Hat SMD")
 		(date "2024-05-08")
 		(rev "0.9")
-		(comment 1 "Built-In 5VDC Buck Converter - 1.2MHz freq.")
+		(comment 1 "Built-In 5VDC Buck Converter")
 		(comment 2 "12VDC ON/OFF Control")
 		(comment 3 "Redesigned using SMD parts")
 		(comment 4 "First World Labs, LLC")
