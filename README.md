@@ -4,7 +4,7 @@ This repository is for a Raspberry Pi-5 Hat that provides various hardware contr
 
 Currently this repository only contains the KiCAD files, but I will add more photos and instructions to build your own as I progress.
 
-Here is the link to order PCBs at OshPark:  https://oshpark.com/shared_projects/3pjP4k0U
+Here is the link to order PCBs at OshPark:  https://oshpark.com/shared_projects/S5zMuqNM
 
 This is the link to DigiKey Parts List: https://www.digikey.com/en/mylists/list/DTLNYIF8ZV
 
