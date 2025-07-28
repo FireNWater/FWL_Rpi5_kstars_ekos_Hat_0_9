@@ -56,8 +56,8 @@
 	(attr exclude_from_pos_files exclude_from_bom)
 	(pad "1" thru_hole oval
 		(at 0 0)
-		(size 16.5 2.5)
-		(drill oval 16 2)
+		(size 14.5 2.5)
+		(drill oval 14 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
