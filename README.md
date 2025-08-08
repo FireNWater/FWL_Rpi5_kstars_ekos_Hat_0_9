@@ -10,5 +10,5 @@ This is the link to DigiKey Parts List: https://www.digikey.com/en/mylists/list/
 
 The DigiKey list includes 10% attrition, so depending on how good you think you are you can save a bit of money there.
 
-The file in the "Linux Software" folder are system files and aliases to help you control the various functions of the hat.  The systemd files are written so that all of the DC power ports and Dew Heater ports turn on once the Raspberry Pi has completed its boot up.  The udev rules will allow you to control the Rpi GPIO ports from the terminal without using sudo.  The aliases, are shortcuts to turning the DC power ports and Dew Heaters on and off from a terminal.
+The files in the "Linux Software" folder are system files and aliases to help you control the various functions of the hat.  The systemd files are written so that all of the DC power ports and Dew Heater ports turn on once the Raspberry Pi has completed its boot up.  The udev rules will allow you to control the Rpi GPIO ports from the terminal without using sudo.  The aliases, are shortcuts to turning the DC power ports and Dew Heaters on and off from a terminal.
 
