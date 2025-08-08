@@ -1,0 +1,11 @@
+[Unit]
+Description=12V Power For Astro Camera
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/gpioset --chip 0 GPIO22=on GPIO23=on GPIO24=on
+ExecStop=bash -c '/usr/bin/pkill gpioset ; /usr/bin/gpioset --chip 0 --toggle 1,0 GPIO22=on GPIO23=on GPIO24=on'
+Type=simple
+
+[Install]
+WantedBy=multi-user.target

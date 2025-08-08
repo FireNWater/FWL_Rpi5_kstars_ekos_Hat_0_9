@@ -1,0 +1,13 @@
+[Unit]
+Description=12V Power For Dew Heaters
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/gpioset --chip 0 GPIO12=on GPIO13=on
+ExecStop=bash -c '/usr/bin/pkill -f /usr/bin/gpioset\ --chip\ 0\ GPIO12\ on\ GPIO13\ on; /usr/bin/gpioset --chip 0 --toggle 1,0 GPIO12=on GPIO13=on'
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
+
+#/usr/bin/pkill -f /usr/bin/gpioset\ --chip\ 0\ GPIO12\ on\ GPIO13\ on

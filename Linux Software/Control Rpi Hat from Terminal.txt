@@ -1,0 +1,9 @@
+Overview of steps to control GPIO pins for FWL hat from Astro Arch:
+
+1) Save udev rule file to /etc/udev/rules.d/ folder.
+2) Create "gpio" group, then add "astro" user to "gpio" group.
+3) Reboot so you can control GPIO pins without sudo.
+
+3) Set up Camera and Dew Heater services so 12VDC equipment comes on automatically at boot
+
+4) Set up Aliases so that you can control Camera and Dew Heaters from command line

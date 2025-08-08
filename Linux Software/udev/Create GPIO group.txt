@@ -1,0 +1,24 @@
+Create GPIO Group Raspberry Pi 5
+To create a GPIO group on a Raspberry Pi 5, you need to follow a series of steps that involve creating the group, adding users to it, and configuring the necessary permissions. Here is a step-by-step guide:
+
+Create the "gpio" group: This group will be used to manage access to GPIO-related kernel devices such as /dev/gpiomem, /dev/gpiochip0, etc. You can create the group using the following command:
+
+sudo groupadd gpio
+
+Add the user to the "gpio" group: Once the group is created, you need to add the user who will be accessing the GPIO pins to this group. For example, to add a user named "newuser" to the "gpio" group, use the following command:
+
+sudo usermod -a -G gpio newuser
+
+Reboot the Raspberry Pi: After adding the user to the "gpio" group, reboot the Raspberry Pi to ensure that the changes take effect:
+
+sudo reboot
+
+Verify the group permissions: After rebooting, you should verify that the /dev/gpiomem device has the correct group permissions set to "gpio". You can check this using the following command:
+
+ls -l /dev/gpiomem
+
+or
+
+ls -l /dev/gpiomem0
+
+The udev rules file needs to be installed and Rpi rebooted for user access to the GPIO pins.

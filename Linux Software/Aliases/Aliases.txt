@@ -1,0 +1,9 @@
+# aliases to allow command line control DC outputs from terminal
+# add these lines to the end of ~/.zshrc file, then restart terminal
+
+alias 12von="sudo /usr/bin/systemctl start camera-power"
+alias 12voff="sudo /usr/bin/systemctl stop camera-power"
+alias 12vstat="sudo /usr/bin/systemctl status camera-power"
+alias dhon="sudo /usr/bin/systemctl start dew-heater"
+alias dhoff="sudo /usr/bin/systemctl stop dew-heater"
+alias dhstat="sudo /usr/bin/systemctl status dew-heater"

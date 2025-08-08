@@ -1,0 +1,4 @@
+https://wiki.gentoo.org/wiki/User:Brushdemon/Raspberry_Pi_GPIO
+
+https://github.com/RPi-Distro/raspberrypi-sys-mods/blob/bookworm/etc.armhf/udev/rules.d/99-com.rules
+
