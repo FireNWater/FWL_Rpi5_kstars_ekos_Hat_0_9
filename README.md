@@ -1,4 +1,4 @@
-# FWL_Rpi5_kstars_ekos_Hat_0_9
+# Raspberry Pi Hat for AstroArch Version 0.9
 
 This repository is for a Raspberry Pi-5 Hat that provides various hardware control functions for Astrophotography equipment. 
 
