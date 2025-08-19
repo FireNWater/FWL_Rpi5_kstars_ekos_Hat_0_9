@@ -13,12 +13,12 @@ pub fn draw_menu (hat_items: &mut HatItem){
     println!("|                                                 |");
     println!("|           3) DC #3 - {}   4) DC #X - {}         |",hat_items.pin_2_status, hat_items.pin_x_status);
     println!("|                                                 |");
-    println!("|           5) DH #1 - {:.1}%   6) DH #2 - {:.1}%         |",hat_items.dh_1_duty, hat_items.dh_2_duty);
+    println!("|           5) DH #1 - {:.1}%   6) DH #2 - {:.1}% |",hat_items.dh_1_duty, hat_items.dh_2_duty);
     println!("|                                                 |");
     println!("|                   7) Exit                       |");
     println!("|-------------------------------------------------|");
     println!("|                                                 |");
-    println!("|           GPS Coordinates:  {}                  |",hat_items.gps_coord);
+    println!("|           GPS Coordinates:{}                    |",hat_items.gps_coord);
     println!("|                                                 |");
     println!("|           Temp/Humidity:  {:.1}C / {:.1}C       |",hat_items.temp, hat_items.humidity);
     println!("|              Dew Point: {:.1}C                  |",hat_items.dew_point);

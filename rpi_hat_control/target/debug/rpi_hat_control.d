@@ -1,1 +1,1 @@
-/home/astronaut/Rust/rpi_hat_control/target/debug/rpi_hat_control: /home/astronaut/Rust/rpi_hat_control/src/main.rs /home/astronaut/Rust/rpi_hat_control/src/menus.rs
+/home/astronaut/Rust/Raspberry-Pi-Hat-for-AstroArch/rpi_hat_control/target/debug/rpi_hat_control: /home/astronaut/Rust/Raspberry-Pi-Hat-for-AstroArch/rpi_hat_control/src/main.rs /home/astronaut/Rust/Raspberry-Pi-Hat-for-AstroArch/rpi_hat_control/src/menus.rs
