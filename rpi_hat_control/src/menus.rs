@@ -56,9 +56,7 @@ pub fn draw_menu (hat_items: &mut HatItem){
     // accurate to within about ±1°C when relative humidity is above 50%, is:
 
     pub fn calculate_dew_point(temp: f32, humidity: f32) -> f32 {
-
         let dew_point = temp - ((100.0 - humidity) / 5.0);
         dew_point
-
     }
 }
