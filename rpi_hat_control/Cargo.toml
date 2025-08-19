@@ -1,7 +1,0 @@
-[package]
-name = "rpi_hat_control"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
-rpi-pal = "0.22.2"
